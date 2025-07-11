@@ -2,11 +2,9 @@ def generate_fibonacci(n: int) -> int:
     if n <= 1:
         return n
     else:
-        return generate_fibonacci(n -1) + generate_fibonacci(n - 2)
+        return generate_fibonacci(n - 1) + generate_fibonacci(n - 2)
 
-sum = 0
-fibonacci_num = 0
-i = 0
+fibonacci_num, i, sum = 0, 0, 0
 
 while fibonacci_num < 4 * 10 ** 6:
     fibonacci_num = generate_fibonacci(i)
