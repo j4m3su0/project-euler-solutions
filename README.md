@@ -1,2 +1,2 @@
 # project-euler-solutions
-A collection of my solutions to the programming problems on the Project Euler website.
+This repository showcases my solutions to various programming challenges from the Project Euler website. 
